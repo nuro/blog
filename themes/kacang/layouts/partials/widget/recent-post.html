@@ -1,0 +1,12 @@
+<br>
+  {{ $related := .Site.RegularPages.Related . | first 5 }}
+    {{ with $related }}
+
+ <div class="list-group">
+ 	<span class="list-group-item"><h3 class="text-secondary">Lihat Juga</h3></span>
+ 	{{ range . }}
+    <a class="list-group-item list-group-item-action" href="{{ .RelPermalink }}">{{ .Title }} <span class="badge badge-success badge-pill" style="float: right;">baru</span></a>
+    {{ end }}
+</div> 
+
+{{ end }}

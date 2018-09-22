@@ -1,0 +1,13 @@
+<br><div style="background: white;padding: 10px;border-radius: 10px;border:solid 1px #ddd;">
+	<h3 class="text-secondary">#Tags</h3>
+  {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+    <a onMouseOver="this.style.background='#eeeeee '"
+   onMouseOut="this.style.background='white'" class="btn" style="color:grey;border: solid 1px #bdbdbd; border-radius: 50px;margin-top: 10px" href="/tags/{{ $name | urlize }}">#{{ $name }}</a>
+  {{ end }}
+</div>
+<!-- menampilkan nama dan jumlah tag tag(2)
+<ul>
+  {{ range first 10 .Site.Taxonomies.tags.ByCount }}
+    <li><a href="/tags/{{ .Name | urlize }}">{{ .Name }}</a> ({{ .Count }})</li>
+  {{ end }}
+</ul> -->
