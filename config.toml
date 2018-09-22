@@ -9,7 +9,7 @@ theme = "kacang"
 
 # Disqus shortcode
 # Disable comments for any individual post by adding "comments: false" in its frontmatter
-disqusShortname = "agrohortitech"
+disqusShortname = "agrohorti"
 
 # Agar front-matter pakai format YAML
 MetaDataFormat = "yaml"
