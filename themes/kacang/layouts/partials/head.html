@@ -1,4 +1,9 @@
-<title>{{ .Title }}</title>
+<title>
+{{ if eq .Title "Agrohorti" }}{{ .Title }} - {{ .Site.Params.tagline }}
+{{else}}
+{{ .Title }} - Agrohorti
+{{end}}
+</title>
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
@@ -6,13 +11,11 @@
 {{ template "_internal/google_news.html" . }}
 {{ template "_internal/opengraph.html" . }}
 {{ template "_internal/twitter_cards.html" . }}
-
-
 <!-- Icon -->
 <link rel="icon" href="/img/logo.svg" />
-
 <link rel="stylesheet" href="/css/bootstrap.min.css" />
 <link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/css/prism.css" />
 <link rel="stylesheet" href="/css/prism.css" />
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">

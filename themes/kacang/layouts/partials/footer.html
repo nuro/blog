@@ -1,11 +1,26 @@
-<footer class="border border-bottom-0 border-left-0 border-right-0">
-    <div class="container pt-3 pb-3 pt-md-5 pb-md-5">
+<br>
+<footer class="border border-bottom-0 border-left-0 border-right-0 bg-white" style="box-shadow: 1px 2px 5px #888888;">
+    <div class="container pt-3 pb-3 pt-md-3 pb-md-3">
         <div class="row">
-            <div class="col">
-
-                &copy; {{ now.Format "2006"}} <a href="{{.Site.BaseURL}}">{{ .Site.Title }}</a>
-
+            <div class="col-lg-8">
+   
+	<h3 class="text-secondary"><b>Topik</b></h3>
+  {{range ($.Site.GetPage "taxonomyTerm" "topik").Pages }}
+   <a class="btn btn-outline-secondary" style="border-radius: 100px" href="{{.Permalink}}">{{.Title}}</a>
+{{end}}
+            </div>
+            <div class="col-lg-4 text-secondary"><hr>
+            	<h3><b>Media Partner</b></h3>
+            	<ul>
+            		<li>PT. Dharma Guna Wibawa</li>
+            		<li>PT. Tunas Agro</li>
+            		<li>PT. PT Sidomuncul Pupuk Nusantara</li>
+            		<li>CV. Karya Mandiri</li>
+            	</ul>
             </div>
         </div>
+    </div>
+    <div class="stickyfooter bg-secondary text-white" style="padding: 10px;"><center>
+    	&copy; {{ now.Format "2006"}} <a class="text-white" href="{{.Site.BaseURL}}">{{ .Site.Title }}</a> | Developed with <i class="fa fa-heart"></i> by Petani
     </div>
 </footer>

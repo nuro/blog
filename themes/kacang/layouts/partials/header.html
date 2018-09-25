@@ -1,12 +1,47 @@
 <header>
-    <div class="jumbotron jumbotron-fluid bg-success text-white">
         <div class="container">
+<h1>Agrohorti</h1>
+                    <p class="lead">Media berbagi informasi berkaitan dengan agrobisnis dan budidayanya.</p>
+
             <div class="row">
-                <div class="col">
-                    <h1>Programmer Pengguna Linux</h1>
-                    <p class="lead">Belajar Pemrograman Apapun Menggunakan Linux</p>
-                </div>
-            </div>
-        </div>
+                <div class="col-lg-8">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="height: 350px">
+      <img class="d-block w-100 rounded" src="https://www.agrohorti.com/img/slide3.jpg" alt="First slide">
     </div>
+    <div class="carousel-item"  style="height: 350px">
+      <img class="d-block w-100 rounded" src="https://www.agrohorti.com/img/slide2.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="list-group">
+    <button type="button" class="list-group-item list-group-item-action">
+    <h3 class="text-secondary">Artikel Terbaru</h3>
+  </button>
+  {{ range first 3 .Site.Pages }}
+    {{if eq .Type "post" }}
+    <a href="{{ .RelPermalink }}" class="list-group-item list-group-item-action"><img class="rounded" style="float: left;margin-right: 10px" src="{{ .Params.image }}" width="80" height="70">{{ .Title }}
+        <br> <sub style="color: #bbb"> · {{ .Date.Format "02 January, 2006" }}</sub></a> 
+    {{ end }}
+    {{ end }}
+</div><br>
+                </div>
+            </div><hr>
+        </div>
 </header>

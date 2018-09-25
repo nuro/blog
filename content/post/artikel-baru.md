@@ -7,8 +7,8 @@ slug: artikel-baru
 tags:
     - Python
 
-kategori:
-    - Pemrograman
+topik:
+    - Pertanian
 
 avatar: https://lh5.googleusercontent.com/-h2tLsyijw8Q/AAAAAAAAAAI/AAAAAAAACys/WBpjN_34z3o/s32-c/photo.jpg
 author: Ridwan

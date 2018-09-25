@@ -7,8 +7,8 @@ slug: cara-membeli-mobil
 tags:
     - Python
 
-kategori:
-    - Pemrograman
+topik:
+    - Perikanan
 
 avatar: https://m.media-amazon.com/images/M/MV5BMjE1NDE3ODA0MV5BMl5BanBnXkFtZTcwODQ5NTgwNQ@@._V1_UX214_CR0,0,214,317_AL_.jpg
 author: Petani Tulen

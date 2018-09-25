@@ -1,11 +1,10 @@
-baseURL = "https://www.agrohorti.com/"
+baseURL = "https://nuro.github.io/"
 languageCode = "en-us"
 title = "Agrohorti"
 disablePathToLower = false
 
 #themesDir = "themes"
 theme = "kacang"
-
 
 # Disqus shortcode
 # Disable comments for any individual post by adding "comments: false" in its frontmatter
@@ -25,7 +24,11 @@ post = "/:slug/"
 # Make tags and categories work
 [indexes]
     tag = "tags"
-    category = "categories"
+    category = "topik"
+
+[taxonomies]
+tag = "tags"
+category = "topik"
 
 [params]
 
@@ -37,6 +40,7 @@ post = "/:slug/"
 
     # This text appears in site header under website title
     subtitle = "Growing up your agrobusiness with us"
+    tagline = "Agrobisnis dan Hortikultura"
 
     # Search engine URL
     searchEngineURL = "https://www.google.com/search"

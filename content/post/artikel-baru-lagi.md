@@ -5,14 +5,14 @@ title: "Artikel Baru Lagi"
 slug: artikel-baru-lagi
 
 topik:
-- Python
+- Pertanian
 
 tags:
 - Pertanian
 - Budidaya polong
 
 kategori:
-- Pemrograman
+- Budidaya
 
 avatar: https://lh5.googleusercontent.com/-h2tLsyijw8Q/AAAAAAAAAAI/AAAAAAAACys/WBpjN_34z3o/s32-c/photo.jpg
 author: Petani Tulen
