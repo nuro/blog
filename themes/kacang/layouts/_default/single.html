@@ -26,7 +26,7 @@
                     <div style="padding: 15px">
                     {{ range .Params.tags }}
                     <a onMouseOver="this.style.background='#eeeeee  '"
-   onMouseOut="this.style.background='white'" style="color:grey;border: solid 1px #bdbdbd; border-radius: 50px;" class="btn" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+   onMouseOut="this.style.background='white'" style="color:grey;border: solid 1px #bdbdbd; border-radius: 50px;margin-top: 10px" class="btn" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
                     {{ end }}
 
 
@@ -39,7 +39,7 @@
                   <a class="text-secondary" target="_blank" href="https://twitter.com/share?url={{.Permalink}}">· <b>t</b>witter</a>
                   <a class="text-secondary" target="_blank" href="https://linkedin.com/shareArticle?url={{.Permalink}}">· linked<b>in</b></a>
                   <a class="text-secondary" target="_blank" href="https://pinterest.com/pin/create/bookmarklet/?url={{.Permalink}}">· <b>p</b>interest</a>
-                  <a class="text-secondary" target="_blank" href="https://api.whatsapp.com/send?phone=6285546666653&text={{.Permalink}}">· whatsapp</a>
+                  <a class="text-secondary" target="_blank" href="https://web.whatsapp.com/send?text={{.Permalink}}">· whatsapp</a>
 
 
                   <!-- Next and previous post -->

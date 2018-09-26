@@ -9,7 +9,7 @@
         {{ partial "nav.html" . }}
         <div class="container"><center>
           <br><h1 class="text-secondary"><b>Oooops...!!</b></h1>
-          <h2 class="text-secondary"> Maaf, Halaman yang anda cari tidak ditemukan.<br>Kembali ke <a href="{{.Site.BaseURL}}" class="btn btn-danger" style="border-radius: 100px;">Halaman Utama</a> atau cari artikel lainnya.</h2></center><hr>
+          <h2 class="text-secondary"> Maaf, Halaman yang anda cari tidak ditemukan.<br>Kembali ke <a href="{{.Site.BaseURL}}" class="btn btn-secondary" style="border-radius: 100px;">Halaman Utama</a> atau cari artikel lainnya.</h2></center><hr>
         {{range ($.Site.GetPage "taxonomyTerm" "topik").Pages }}
    <a class="btn btn-info" style="border-radius: 100px;margin-top: 10px" href="{{.Permalink}}">{{.Title}}</a>
 {{end}}
