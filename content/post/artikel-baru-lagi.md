@@ -1,27 +1,37 @@
 ---
 draft: false
 date: 2018-09-15T10:46:22+07:00
-title: "Artikel Baru Lagi"
-slug: artikel-baru-lagi
+title: "Perkembangan Pertanian Organik di Indonesia"
+slug: perkembangan-pertanian-organik-di-indonesia
 
 topik:
 - Pertanian
 
 tags:
 - Pertanian
-- Budidaya polong
+- Organik
 
-kategori:
-- Budidaya
-
-avatar: https://lh5.googleusercontent.com/-h2tLsyijw8Q/AAAAAAAAAAI/AAAAAAAACys/WBpjN_34z3o/s32-c/photo.jpg
+avatar: https://vannashara.files.wordpress.com/2012/11/senyum-petani.jpg?w=640
 author: Petani Tulen
 link: https://twitter.com/nurohman_id
 
-image: https://www.agrohorti.com/alam/fenomena-es-di-dieng/fenomena-es-di-dieng.jpg
-thumbnail: https://d3nfwcxd527z59.cloudfront.net/content/uploads/2018/09/14112152/Federico-Macheda-Cristiano-Ronaldo.jpg
+image: https://www.agrohorti.com/Pertanian/pengembangan-pertanian-organik/pertanian-organik1.jpg
+thumbnail: https://www.agrohorti.com/Pertanian/pengembangan-pertanian-organik/pertanian-organik1.jpg
 
 ---
-sassasasas
-aduhhhh lalii
+Pengembangan pertanian organik dari waktu ke waktu semakin meningkat terutama di negara maju. Tren pertanian organik kini merambah di penjuru dunia dan menjadi komoditas menjanjikan di negara berkembang juga. Mantan ilmuan jepang telah mengembangkan metode pengembangan pertanian yang dikenal dengan metode bertani “tanpa bekerja”. Ada 4 asas bertani yang dipraktikkan beliau.
+
+1. Tanpa pengolahan, tanpa membajak atau membalik tanah.
+
+2. Tanpa pupuk kimia atau kompos yang dipersiapkan.
+
+3. Tanpa menghilangkan gulma dengan pengerjaan tanah/herbisida.
+
+4. Tidak tergantung dari bahan - bahan kimia.
+
+Berdasarkan pertimbangan 4 asas tersebut, ada beberapa faktor yang perlu diperhatikan dalam pengembangan pertanian organik di Indonesia, yaitu keragaman daur ulang limbah organik dan pemanfaatannya untuk memperbaiki sifat fisik, kimia, dan biologi tanah. Pemanfaatan limbah untuk pengembangan pertanian organik sangat dianjurkan, serta dengan memanfaatkan kotoran ternak yang berasal dari unggas, sapi, ayam, itik, kambing, dan kelinci untuk pakan ikan.
+
+<b>Sumber Referensi</b>
+
+<i>Pestisida Organik - Winarti Tim Redaksi Cemerlang</i>
 <!--more-->
